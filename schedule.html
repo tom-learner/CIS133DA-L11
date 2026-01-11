@@ -3,13 +3,13 @@
 <head>
     <!--
         Course: CIS133DA
-        Section: #
-        Lesson: 
+        Section: #31862
+        Lesson: 11
     -->
-    <title>Template</title>
+    <title>Schedule Appointment</title>
     <meta charset="UTF-8">
-    <meta name="author" content="">
-    <meta name="description" content="">
+    <meta name="author" content="Li Weiqi">
+    <meta name="description" content="Schedule an appointment with Computer Systems Inc.">
     <meta name="keywords" content="">
     <link rel="stylesheet" href="css/default_style.css">
 </head>
@@ -97,13 +97,15 @@
                 <label for="comments">Additional Comments:</label>
                 <textarea id="comments"></textarea>
                 <br>
-                <button type="reset">Reset form</button>
-                <button type="submit">Submit form</button>
+                <button type="reset" onclick="formReset()">Reset form</button>
+                <button type="submit" onclick="formSubmit()">Submit form</button>
             </form>
+            <p id="resetMessage">The form has been reset. Please fill out all fields again.</p>
         </main>
         <footer>
-            <p><small>Photo by <a href="https://unsplash.com/@clintbustrillos">Clint Bustrillos</a><br>Copyright by MEID &copy; 2023</small></p>
+            <p><small>Photo by <a href="https://unsplash.com/@clintbustrillos">Clint Bustrillos</a><br>Copyright by WEI2143613 &copy; 2025</small></p>Last Modified: <span id="lastModified"></span>
         </footer>
     </div>
+    <script src="scripts/javascript.js"></script>
 </body>
 </html>
