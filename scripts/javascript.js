@@ -11,6 +11,7 @@ if (lastModifiedElement) {
     lastModifiedElement.textContent = document.lastModified;
 }
 
+
 // Show alert when form is submitted
 function formSubmit() {
     alert("Form has been submitted successfully!");
